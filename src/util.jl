@@ -18,7 +18,7 @@ function freq_to_midi(freq::Float64)
 end
 
 # return arr divided into parts with n elements, rounds the last list down 
-# for example, the last element of a 9 length arr will be of length 2 if it is wanted to be split into
+# for example, the last element of a 8 length arr will be of length 2 if it is wanted to be split into
 # elements of length 3
 function div_array(arr, n) 
     return [arr[i:min(i + n - 1, end)] for i in 1:n:length(arr)]
