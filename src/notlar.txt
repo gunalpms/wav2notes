@@ -1,3 +1,0 @@
-fieldnames(object) -> object field isimlerini döndürür
-size(matrix) -> her boyuttaki eleman sayısı
-
