@@ -24,7 +24,7 @@
 * Open an issue with the steps and environment to reproduce the issue.
 
 ### Future:
-* Increasing the precision of the algorithm.
-* Support for 6+ String classical guitars.
-* Prettier output for the user.
-* Possibly a version written in Rust to compile to WASM and run in a browser. 
+- [ ] Increasing the precision of the algorithm.
+- [ ] Support for 6+ String classical guitars.
+- [ ] Prettier output for the user.
+- [ ] Possibly a version written in Rust to compile to WASM and run in a browser. Using the crate RFFT.rs which is a wrapper for the FFTW3 Rust library, increasing the performance 2x for any real input.
